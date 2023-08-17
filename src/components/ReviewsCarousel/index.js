@@ -23,7 +23,7 @@ class ReviewsCarousel extends Component {
 
   render() {
     const {index} = this.state
-    const reviewsList = this.props
+    const {reviewsList} = this.props
     const reviewDetails = reviewsList[index]
     const {imgUrl, username, companyName, description} = reviewDetails
 
